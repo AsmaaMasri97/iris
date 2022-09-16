@@ -27,7 +27,30 @@
 .App-link {
   color: #61dafb;
 }
-
+/*.swiper-button-next
+ {
+  position: absolute;
+  right: 0;
+  margin-right: 200px;
+  color: #1E5B63;
+  border-radius: 50%;
+  border: 1px solid #CBA770;
+  height: 60px;
+  width: 60px;
+}
+  
+    .swiper-button-next.swiper-button-disabled
+    .swiper-button-prev.swiper-button-disable .swiper-button-prev
+   {
+position: absolute;
+  right: 0;
+  margin-right: 200px;
+  color: #1E5B63;
+  border-radius: 50%;
+  border: 1px solid #CBA770;
+  height: 60px;
+  width: 60px;
+    }*/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
