@@ -25,7 +25,12 @@ export default function Slider(props) {
       >
         {props.cards.map((card, i) => (
           <SwiperSlide
-            style={{ display: "flex", flexDirection: "row" }}
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "space-between",
+            }}
             key={i}
           >
             {props.cards.map((l, i) => (

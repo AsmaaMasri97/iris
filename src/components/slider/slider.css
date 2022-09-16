@@ -6,7 +6,7 @@
 .swiper-button-prev {
     position: absolute;
     left: 0;
-    margin-left: 200px;
+    margin-left: 5%;
     color: #1E5B63;
     border-radius: 50%;
     border: 1px solid #CBA770;
@@ -19,7 +19,7 @@
 .swiper-button-next {
     position: absolute;
     right: 0;
-    margin-right: 200px;
+    margin-right: 5%;
     color: #1E5B63;
     border-radius: 50%;
     border: 1px solid #CBA770;
@@ -46,14 +46,14 @@
 @media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
     .swiper-button-prev {
         margin-top: 673px;
-        margin-left: 142px;
+        margin-left: 5%;
         height: 50px;
         width: 50px;
     }
     
     .swiper-button-next {
         margin-top: 673px;
-        margin-right: 142px;
+        margin-right: 5%;
         height: 50px;
         width: 50px;
     }

@@ -9,7 +9,12 @@ function Home() {
         <div className="home_category_section">
           <h1>Categories</h1>
           <div
-            style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "space-between",
+            }}
           >
             {Array(...Array(8)).map((_, i) => (
               <Category />

@@ -1,6 +1,8 @@
 .home{
-    padding-left: 300px;
-    padding-top: 210px;
+    padding-left: 13%;
+    padding-right: 10%;
+    padding-top: 11%;
+    width: 76;
 }
 .home_category_section h1{
     font-size: 45px;
@@ -23,8 +25,8 @@
 @media only screen and (max-width: 600px){
     .home{
         width: 100%;
-        padding-left: 50px;
-        padding-top: 60px;
+        padding-left: 4%;
+        padding-top: 5%;
     }
     .home_category_section h1 {
         font-size: 25px;
@@ -40,10 +42,7 @@
 }
 
 @media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
-    .home{
-        padding-left: 214px;
-        padding-top: 150px;
-    }
+    
     .home_category_section h1{
         font-size: 32px;
         padding-bottom: 21px;
