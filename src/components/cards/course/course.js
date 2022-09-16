@@ -6,7 +6,11 @@ import erd from "../../../assets/icons/erd.svg";
 import "./course.css";
 import male from "../../../assets/icons/male.svg";
 import top from "../../../assets/images/top.jpg";
+import ReactStars from "react-rating-stars-component";
 function Course() {
+  const ratingChanged = (newRating) => {
+    console.log(newRating);
+  };
   return (
     <div className="course">
       <img src={top} className="course_img" />
@@ -14,7 +18,13 @@ function Course() {
         <p className="course_container_title">
           English language <br /> course
         </p>
-        <img src={rating} style={{ height: "21px", width: "105px" }} />
+        <ReactStars
+          count={5}
+          onChange={ratingChanged}
+          size={24}
+          activeColor="#ffd700"
+        />
+
         <div>
           <img src={housam} style={{ height: "30px", width: "30px" }} />
           <p className="course_container_name">Housam</p>

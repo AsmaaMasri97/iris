@@ -42,8 +42,27 @@
         display: none;
     }
 
+    
+}
+@media only screen and (min-width: 600px) and (max-device-width: 1200px) {
+    .swiper {
+            height: 1000px;
+        }
+    .swiper-button-prev{
+        margin-top: 165%;
+    }
+    .swiper-button-next{
+        margin-top: 165%;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+             bottom: -635px;
+    }
 }
 @media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
+   
     .swiper-button-prev {
         margin-top: 673px;
         margin-left: 5%;

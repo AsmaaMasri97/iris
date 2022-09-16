@@ -22,27 +22,9 @@
 }
 
 
-@media only screen and (max-width: 600px){
-    .home{
-        width: 100%;
-        padding-left: 4%;
-        padding-top: 5%;
-    }
-    .home_category_section h1 {
-        font-size: 25px;
-        padding-bottom: 15px;
-    }
-    .home_course_section{
-        margin-top: 80px;
-    }
-    .home_course_section h1 {
-        font-size: 25px;
-        padding-bottom: 15px;
-    }
-}
+
 
 @media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
-    
     .home_category_section h1{
         font-size: 32px;
         padding-bottom: 21px;
