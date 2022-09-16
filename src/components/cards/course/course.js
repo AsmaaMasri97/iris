@@ -3,10 +3,10 @@ import housam from "../../../assets/icons/hosam.svg";
 import time from "../../../assets/icons/time.svg";
 import play from "../../../assets/icons/play.svg";
 import erd from "../../../assets/icons/erd.svg";
-import "./courseCard.css";
+import "./course.css";
 import male from "../../../assets/icons/male.svg";
 import top from "../../../assets/images/top.jpg";
-function CourseCard() {
+function Course() {
   return (
     <div className="course">
       <img src={top} className="course_img" />
@@ -53,4 +53,4 @@ function CourseCard() {
     </div>
   );
 }
-export default CourseCard;
+export default Course;

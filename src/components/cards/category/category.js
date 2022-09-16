@@ -1,6 +1,6 @@
 import sort from "../../../assets/icons/sort.svg";
-import "./categoryCard.css";
-function CategoryCard() {
+import "./category.css";
+function Category() {
   return (
     <div className="category">
       <img src={sort} />
@@ -10,4 +10,4 @@ function CategoryCard() {
     </div>
   );
 }
-export default CategoryCard;
+export default Category;

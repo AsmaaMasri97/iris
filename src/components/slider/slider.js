@@ -4,8 +4,8 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { EffectFade, Navigation, Pagination } from "swiper";
-import CourseCard from "../cards/course/coursesCard";
 import "./slider.css";
+import Course from "../cards/course/course";
 export default function Slider(props) {
   return (
     <>
@@ -29,7 +29,7 @@ export default function Slider(props) {
             key={i}
           >
             {props.cards.map((l, i) => (
-              <CourseCard />
+              <Course />
             ))}
           </SwiperSlide>
         ))}

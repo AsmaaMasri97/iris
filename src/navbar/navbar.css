@@ -13,14 +13,13 @@
     align-items: center;
 }
 .navigation_logo{
-    width: 116px;
     height: 72px;
 }
 .navigation_categry_section{
     display: flex;
     align-items: center;
-    width: 219px;
-    margin-right: 30px;
+    width: 10.24%;
+    margin-left: 1.54%;
     margin-left: 57px;
 }
 .navigation_categry_section a{
@@ -31,15 +30,21 @@
     line-height: 19.14px;
     font-weight: 700;
 }
-
+.navigation_links{
+    width: 16.98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .navigation_links a{
-    padding-right: 30px;
+    width: calc(100%/3);
     font-size: 20px;
     font-weight: 700;
     line-height: 19.14px;
 }
+
 .navigation_search{
-    width: 280px;
+    width: 12.73%;
     height: 56px;
     padding-left: 12px;
     padding-right: 12px;
@@ -48,6 +53,7 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     margin-right: 22px;
+    margin-left: 1.54%;
     display: flex;
     align-items: center;
 }
@@ -71,7 +77,7 @@
 }*/
 .navigation_more{
     height: 50px;
-    width: 50px;
+    width: 2.54%;
     border: 3px solid var(--main-color-soft-peach);
     border-radius: 10px;
     display: flex;
@@ -81,7 +87,7 @@
     margin-right: 22px;
 }
 .navigation_container_note{
-    width: 229px;
+    width: 10.66%;
     height: 54px;
     padding-left: 15px;
     padding-right: 15px;
@@ -104,7 +110,7 @@
     color: var(--main-color-dark-green-blue);
 }
 .navigation_avatar{
-    width: 226px;
+    width: 10.33%;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -156,6 +162,7 @@ export const xx='1536';
  @media (min-width: _breakpoint.$xl) and (max-width: _breakpoint.$xxl) {
      width: 400px;
  }*/
+ 
  @media only screen and (max-width: 600px) {
     .navigation{
         width: 100%;
@@ -199,14 +206,13 @@ export const xx='1536';
  @media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
     .navigation{
         height: 71px;
-        padding-left: 105px
+        padding-left: 105px;
     }
     .navigation_logo{
-        width: 82px;
         height: 51px;
     }
     .navigation_categry_section{
-        width: 156px;
+        width: 10.71%;
         margin-right: 21px;
         margin-left: 40px;
     }
@@ -219,12 +225,15 @@ export const xx='1536';
         padding-right: 10px;
         font-size: 14px;
     }
+    .navigation_links{
+        padding: 0px;
+        
+    }
     .navigation_links a{
-        padding-right: 21px;
         font-size: 14px;
     }
     .navigation_search {
-        width: 200px;
+        width: 13.33%;
         height: 40px;
         padding-left: 8px;
         padding-right: 8px;
@@ -237,18 +246,18 @@ export const xx='1536';
         width: 17px;
     }
     .navigation_search input{
-        width: 161px;
+        width: 90%;
         height: 14px;
         font-size: 11px;
     }
     .navigation_more{
         height: 36px;
-        width: 36px;
+        width: 2.69%;
         margin-right: 15px;
         border-radius: 7px;
     }
     .navigation_container_note{
-        width: 163px;
+        width: 11.14%;
         height: 39px;
         padding-left: 10px;
         padding-right: 10x;
@@ -263,7 +272,7 @@ export const xx='1536';
         font-size: 14px;
     }
     .navigation_avatar{
-        width: 161px;
+        width: 11.14%;
         height: 42px;
         margin-right: 38px;
     }
@@ -274,7 +283,7 @@ export const xx='1536';
     }
     .navigation_avatar_nationality_section img:first-child{
         height: 28px;
-        width:43px ;
+        width: 43px ;
     }
     .navigation_avatar_nationality_section img:last-child {
         width: 17px;

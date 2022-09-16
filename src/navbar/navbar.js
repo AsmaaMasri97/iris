@@ -22,11 +22,11 @@ function Navbar() {
           <a>Categories</a>
           <img src={expand} />
         </div>
-        <div className="navigation_links">
+        <ul className="navigation_links">
           <a>Courses</a>
           <a>Blogs</a>
           <a>Contact Us</a>
-        </div>
+        </ul>
         <div className="navigation_search">
           <img src={search} />
           <input placeholder="Search" />

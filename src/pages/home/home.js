@@ -1,14 +1,6 @@
-import CategoryCard from "../../components/cards/category/categoryCard";
-import CourseCard from "../../components/cards/course/coursesCard";
-import Navbar from "../../navbar/navbar";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { EffectFade, Navigation, Pagination } from "swiper";
-import "./home.css";
 import Slider from "../../components/slider/slider";
+import Category from "../../components/cards/category/category";
+import "./home.css";
 // Import Swiper styles
 function Home() {
   return (
@@ -20,7 +12,7 @@ function Home() {
             style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
           >
             {Array(...Array(8)).map((_, i) => (
-              <CategoryCard />
+              <Category />
             ))}
           </div>
         </div>
