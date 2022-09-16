@@ -21,9 +21,39 @@
     padding-bottom: 30px;
 }
 
-
-
-
+@media only screen and (max-width: 600px) {
+    .home_category_section h1{
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+    .home_course_section{
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    .home_course_section h1 {
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-device-width: 1200px) {
+    .home_category_section h1 {
+            font-size: 30px;
+            font-weight: 500;
+            padding-bottom: 0px;
+        }
+    
+        .home_course_section {
+            margin-top: 50px;
+        }
+    
+        .home_course_section h1 {
+            font-size: 30px;
+            font-weight: 500;
+            padding-bottom: 0px;
+        }
+}
 @media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
     .home_category_section h1{
         font-size: 32px;

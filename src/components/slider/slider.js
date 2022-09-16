@@ -21,7 +21,6 @@ export default function Slider(props) {
         allowTouchMove={true}
         allowSlideNext={true}
         modules={[EffectFade, Navigation, Pagination]}
-        style={{ height: "800px" }}
       >
         {props.cards.map((card, i) => (
           <SwiperSlide

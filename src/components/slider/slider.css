@@ -1,6 +1,7 @@
 .swiper {
     position: inherit;
     padding: 10px;
+    height: 800px;
 }
 
 .swiper-button-prev {
@@ -33,15 +34,24 @@
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
     bottom: -270px;
+    
 }
-@media only screen and (max-width: 600px) {
-    .swiper-button-prev {
-        display: none;
-    }
-    .swiper-button-next{
-        display: none;
-    }
+.swiper-pagination-bullet-active{
+    border: 1px solid var(--main-color-dark-green-blue);
+    background-color: var(--main-color-brown);
+}
 
+
+@media only screen and (max-width: 600px) {
+    .swiper{
+        height: auto;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -1700px;
+    }
     
 }
 @media only screen and (min-width: 600px) and (max-device-width: 1200px) {
@@ -49,10 +59,10 @@
             height: 1000px;
         }
     .swiper-button-prev{
-        margin-top: 165%;
+        margin-top: 150%;
     }
     .swiper-button-next{
-        margin-top: 165%;
+        margin-top: 150%;
     }
     .swiper-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
@@ -80,6 +90,6 @@
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-        bottom: -335px;
+        bottom: -370px;
     }
 }
