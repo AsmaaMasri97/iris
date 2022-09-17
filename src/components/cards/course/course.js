@@ -3,10 +3,10 @@ import housam from "../../../assets/icons/hosam.svg";
 import time from "../../../assets/icons/time.svg";
 import play from "../../../assets/icons/play.svg";
 import erd from "../../../assets/icons/erd.svg";
-import "./course.css";
 import male from "../../../assets/icons/male.svg";
 import top from "../../../assets/images/top.jpg";
 import ReactStars from "react-rating-stars-component";
+import "./course.css";
 function Course() {
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -22,6 +22,7 @@ function Course() {
           count={5}
           onChange={ratingChanged}
           size={24}
+          value={4}
           activeColor="#ffd700"
         />
 

@@ -1,21 +1,13 @@
-import Slider from "../../components/slider/slider";
 import Category from "../../components/cards/category/category";
+import Slider from "../../components/slider/slider";
 import "./home.css";
-// Import Swiper styles
 function Home() {
   return (
     <>
       <div className="home">
         <div className="home_category_section">
           <h1>Categories</h1>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              justifyContent: "space-between",
-            }}
-          >
+          <div className="home_category_container">
             {Array(...Array(8)).map((_, i) => (
               <Category />
             ))}

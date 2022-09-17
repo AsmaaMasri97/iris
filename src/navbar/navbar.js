@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import logo from "../assets/images/logo-img.png";
 import category from "../assets/icons/category-icon.svg";
 import expand from "../assets/icons/expand.svg";

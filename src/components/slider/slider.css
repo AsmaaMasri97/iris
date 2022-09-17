@@ -1,7 +1,7 @@
 .swiper {
     position: inherit;
     padding: 10px;
-    height: 800px;
+    height: auto;
 }
 
 .swiper-button-prev {
@@ -14,7 +14,7 @@
     height: 60px;
     width: 60px;
     top: 0;
-    margin-top: 943px;
+    margin-top: 43%;
 }
 
 .swiper-button-next {
@@ -27,13 +27,13 @@
     height: 60px;
     width: 60px;
     top: 0;
-    margin-top: 943px;
+    margin-top: 43%;
 }
 .swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: -270px;
+    bottom: -20%;
     
 }
 .swiper-pagination-bullet-active{
@@ -46,18 +46,34 @@
     .swiper{
         height: auto;
     }
+    .swiper-button-prev {
+        margin-top: 200%;
+    }    
+    .swiper-button-next {
+        margin-top: 200%;
+    }
     .swiper-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-        bottom: -1700px;
+        bottom: -195%;
     }
-    
 }
-@media only screen and (min-width: 600px) and (max-device-width: 1200px) {
-    .swiper {
-            height: 1000px;
-        }
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .swiper-button-prev{
+        margin-top: 200%;
+    }
+    .swiper-button-next{
+        margin-top: 200%;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+            bottom: -48%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
     .swiper-button-prev{
         margin-top: 150%;
     }
@@ -68,20 +84,18 @@
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-             bottom: -635px;
+            bottom: -48%;
     }
 }
-@media only screen and (min-width : 1200px) and (max-device-width: 1400px) {
-   
+@media only screen and (min-width : 1200px) and (max-width: 1400px) {
     .swiper-button-prev {
-        margin-top: 673px;
+        margin-top: 45%;
         margin-left: 5%;
         height: 50px;
         width: 50px;
     }
-    
     .swiper-button-next {
-        margin-top: 673px;
+        margin-top: 45%;
         margin-right: 5%;
         height: 50px;
         width: 50px;
@@ -90,6 +104,6 @@
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-        bottom: -370px;
+        bottom: -38%;
     }
 }

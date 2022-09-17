@@ -6,10 +6,6 @@
   --main-color-soft-peach : #EEEEEE;
   --main-color-davy-grey : #555555;
   --main-color-brown : #CBA770;
-
-
-  /*--main-color-bondi-blue:#0095B6;*/
-
 }
 body {
   margin: 0;
@@ -30,4 +26,10 @@ code {
 }
 div{
   box-sizing: border-box;
+}
+@font-face {
+  font-family: "GothamBold";
+  src: local("GothamBold"),
+    url("./assets/fonts/Gotham-Font/GothamBold.ttf") format("truetype");
+  font-weight: bold;
 }
